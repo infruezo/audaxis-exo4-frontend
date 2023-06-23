@@ -1,0 +1,207 @@
+[
+  {
+    "AD_USER_ID": 1000747,
+    "NAME": "Pierre",
+    "EMAIL": "psp@audaxis.com"
+  },
+  {
+    "AD_USER_ID": 1001344,
+    "NAME": "USER02_Mic",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1000642,
+    "NAME": "Acheteur",
+    "EMAIL": "acheteur@audaxis.com"
+  },
+  {
+    "AD_USER_ID": 1001345,
+    "NAME": "USER03_Mic",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1001542,
+    "NAME": "Management",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1001642,
+    "NAME": "ContactT1",
+    "EMAIL": "xxx@xxx.com"
+  },
+  {
+    "AD_USER_ID": 1002045,
+    "NAME": "Contact03",
+    "EMAIL": "contact03@mail.com"
+  },
+  {
+    "AD_USER_ID": 1000042,
+    "NAME": "Céline Brevet",
+    "EMAIL": "Céline.Brevet@yahoo.com"
+  },
+  {
+    "AD_USER_ID": 1000442,
+    "NAME": "René Duschmolle",
+    "EMAIL": "rene.duschmolle@hotmail.com"
+  },
+  {
+    "AD_USER_ID": 1000443,
+    "NAME": "Dimitri Koutouzov",
+    "EMAIL": "dimitri.koutouzov@hotmail.com"
+  },
+  {
+    "AD_USER_ID": 1000444,
+    "NAME": "Liliane Leliège",
+    "EMAIL": "liliane.leliege@hotmail.com"
+  },
+  {
+    "AD_USER_ID": 1000945,
+    "NAME": "Pierre Spilleboudt",
+    "EMAIL": "cgi@audaxis.com"
+  },
+  {
+    "AD_USER_ID": 1001142,
+    "NAME": "Théophile Tartempion",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1001842,
+    "NAME": "Contact client 1",
+    "EMAIL": "mve@audaxis.com"
+  },
+  {
+    "AD_USER_ID": 1002043,
+    "NAME": "Contact02",
+    "EMAIL": "contact02@mail.com"
+  },
+  {
+    "AD_USER_ID": 100,
+    "NAME": "SuperUser",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 0,
+    "NAME": "System",
+    "EMAIL": "System@company.com"
+  },
+  {
+    "AD_USER_ID": 101,
+    "NAME": "GardenAdmin",
+    "EMAIL": "admin@gardenworld.com"
+  },
+  {
+    "AD_USER_ID": 102,
+    "NAME": "GardenUser",
+    "EMAIL": "user@gardenworld.com"
+  },
+  {
+    "AD_USER_ID": 103,
+    "NAME": "Joe Sales",
+    "EMAIL": "Joe Sales@company.com"
+  },
+  {
+    "AD_USER_ID": 104,
+    "NAME": "Carl Boss",
+    "EMAIL": "Carl Boss@company.com"
+  },
+  {
+    "AD_USER_ID": 105,
+    "NAME": "Henry Seed",
+    "EMAIL": "Henry Seed@company.com"
+  },
+  {
+    "AD_USER_ID": 1000000,
+    "NAME": "3SuissesAdmin",
+    "EMAIL": " "
+  },
+  {
+    "AD_USER_ID": 1000001,
+    "NAME": "3SUISSES User",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1000016,
+    "NAME": "Outil-BelAdmin",
+    "EMAIL": "Outil-BelAdmin@Outil-Bel.com"
+  },
+  {
+    "AD_USER_ID": 1000017,
+    "NAME": "Outil-BelUser",
+    "EMAIL": "Outil-BelUser@Outil-Bel.com"
+  },
+  {
+    "AD_USER_ID": 1000142,
+    "NAME": "Theodore de Brouwer",
+    "EMAIL": "tdb@audaxis.com"
+  },
+  {
+    "AD_USER_ID": 1001342,
+    "NAME": "USER01_Mic",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1001242,
+    "NAME": "Pamela",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1001348,
+    "NAME": "UserMain01_Mic",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1001942,
+    "NAME": "Contact_C2_Mic",
+    "EMAIL": "michael.verbeek@gmail.com"
+  },
+  {
+    "AD_USER_ID": 1002044,
+    "NAME": "Contact04",
+    "EMAIL": "contact04@mail.com"
+  },
+  {
+    "AD_USER_ID": 1000751,
+    "NAME": "Paul",
+    "EMAIL": "pierre.spilleboudt@gmail.com"
+  },
+  {
+    "AD_USER_ID": 1000842,
+    "NAME": "Ching-fang Sasha TING",
+    "EMAIL": "chingting@fi-taipei.com"
+  },
+  {
+    "AD_USER_ID": 1001742,
+    "NAME": "User1",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1002042,
+    "NAME": "Contact01",
+    "EMAIL": "contact01@mail.com"
+  },
+  {
+    "AD_USER_ID": 1002142,
+    "NAME": "YoucefMegoura",
+    "EMAIL": "meg.youcef@yahoo.fr"
+  },
+  {
+    "AD_USER_ID": 1002342,
+    "NAME": "Jojo User",
+    "EMAIL": "JojoUser@gmail.com"
+  },
+  {
+    "AD_USER_ID": 1002242,
+    "NAME": "Youcef",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1002343,
+    "NAME": "CustomerUser",
+    "EMAIL": null
+  },
+  {
+    "AD_USER_ID": 1002345,
+    "NAME": "Youcef Megoura",
+    "EMAIL": null
+  }
+]
