@@ -1,6 +1,8 @@
 import { ServerConfig } from 'src/app/model/server-config';
 import { ConfigService } from './../../services/config.service';
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/app/services/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -14,9 +16,15 @@ export class LoginComponent implements OnInit {
   user: string = '';
   password: string = '';
 
+  feedback: string = '';
+
   workingConfig!: ServerConfig;
 
-  constructor(private service: ConfigService) {}
+  constructor(
+    private service: ConfigService,
+    private auth: AuthService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
     this.service.getServerConfig().subscribe((data) => {
@@ -38,21 +46,28 @@ export class LoginComponent implements OnInit {
       this.port === this.workingConfig.port &&
       this.sid === this.workingConfig.sid
     ) {
-      // TODO: show success popup
-      console.log('connected');
+      this.feedback = 'Connected!';
       return true;
     } else {
-      // TODO: clear fields and show error message
-      console.log('wrong credentials');
+      this.feedback = 'Wrong Credentials';
       return false;
     }
   }
 
   connect() {
     if (this.testConnection()) {
-      // TODO: Redirect to main screen
+      this.auth.setIsLoggedIn(true);
+      this.router.navigate(['main']);
     } else {
-      // TODO: clear fields and show error message
+      this.auth.setIsLoggedIn(false);
     }
+  }
+
+  fillFormData() {
+    this.host = this.workingConfig.host;
+    this.user = this.workingConfig.user;
+    this.password = this.workingConfig.password;
+    this.port = this.workingConfig.port;
+    this.sid = this.workingConfig.sid;
   }
 }

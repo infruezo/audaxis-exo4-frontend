@@ -1,6 +1,6 @@
 <section class="bg-sky-100 pt-4 dark:bg-gray-900">
   <div
-    class="flex flex-col items-center px-6 py-8 mx-auto md:min-h-screen lg:py-12"
+    class="flex flex-col items-center px-6 py-8 mx-auto md:min-h-screen lg:py-12 relative"
   >
     <div
       class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700"
@@ -12,6 +12,19 @@
           Enter Database Credentials
         </h1>
         <form class="space-y-4 md:space-y-3" action="#">
+          <h5
+            class="text-center text-green-500 font-medium text-lg"
+            *ngIf="feedback === 'Connected!'; else wrongCredentials"
+          >
+            {{ feedback }}
+          </h5>
+
+          <ng-template #wrongCredentials>
+            <h5 class="text-center text-red-500 font-medium text-lg">
+              {{ feedback }}
+            </h5>
+          </ng-template>
+
           <div>
             <label
               for="host"
@@ -110,5 +123,13 @@
         </form>
       </div>
     </div>
+
+    <!-- autocomplete form button -->
+    <button
+      class="absolute top-2 right-2 px-4 py-1 bg-green-500 text-white font-medium rounded-md shadow-sm"
+      (click)="fillFormData()"
+    >
+      +
+    </button>
   </div>
 </section>
